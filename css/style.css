@@ -39,7 +39,7 @@ button:hover {
 .header {
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.526);
   color: rgba(255, 255, 255, 0.82);
 }
 
@@ -49,8 +49,21 @@ button:hover {
   text-transform: uppercase;
 }
 
+.nav__link {
+  color: rgba(255, 255, 255, 0.82);
+  transition: opacity 0.3s ease;
+}
+
+.nav__link:hover {
+  opacity: 0.7;
+}
+
 .hero {
   min-height: 380px;
+}
+
+.hero.min {
+  min-height: auto;
 }
 
 .hero__title {
@@ -63,10 +76,14 @@ button:hover {
   font-family: "Gloria Hallelujah", cursive;
 }
 
+.hero.min .hero__title {
+    margin-bottom: 10px;
+}
+
 .get-btn-wrapper {
-    width: 50%;
-    margin: 0 auto;
-    text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .get-btn {
@@ -107,6 +124,7 @@ button:hover {
   font-family: "Gloria Hallelujah", cursive;
   color: rgb(84, 78, 78);
   font-size: 40px;
+  text-align: center;
 }
 
 .tickets {
@@ -162,9 +180,9 @@ button:hover {
 }
 
 .socials-wrapper {
-    text-align: right;
-    margin-top: -40px;
-    padding-bottom: 20px;
+  text-align: right;
+  margin-top: -40px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -190,4 +208,15 @@ button:hover {
 
 .social__link:hover {
   opacity: 0.7;
+}
+
+/* ABOUT */
+
+.about {
+  color: rgba(6, 6, 6, 0.36);
+  padding-bottom: 40px;
+}
+
+.about-img {
+  float: left;
 }
