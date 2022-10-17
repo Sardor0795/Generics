@@ -1,11 +1,11 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -26,16 +26,16 @@ button:hover {
 }
 
 .container {
-  max-width: 1130px;
   margin: 0 auto;
   padding: 0 20px;
+  max-width: 1130px;
 }
 
 .bg-wrapper {
-  background-image: url("../img/bg_img.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-image: url("../img/bg_img.jpg");
 }
 
 /* HEADER */
@@ -43,19 +43,19 @@ button:hover {
 .header {
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.526);
   color: rgba(255, 255, 255, 0.82);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.526);
 }
 
 .nav__item {
-  display: inline-block;
   margin: 0 25px;
+  display: inline-block;
   text-transform: uppercase;
 }
 
 .nav__link {
-  color: rgba(255, 255, 255, 0.82);
   transition: opacity 0.3s ease;
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .nav__link:hover {
@@ -71,12 +71,12 @@ button:hover {
 }
 
 .hero__title {
-  text-align: center;
-  text-transform: capitalize;
-  color: rgb(255, 255, 255);
   font-size: 60px;
   margin-top: 10px;
+  text-align: center;
   margin-bottom: 30px;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
   font-family: "Gloria Hallelujah", cursive;
 }
 
@@ -91,12 +91,12 @@ button:hover {
 }
 
 .get-btn {
-  text-transform: capitalize;
-  background-color: rgba(120, 199, 242, 0.396);
   color: #fff;
   padding: 10px 30px;
-  border: 2px solid #78c7f2;
   margin-bottom: 100px;
+  text-transform: capitalize;
+  border: 2px solid #78c7f2;
+  background-color: rgba(120, 199, 242, 0.396);
 }
 
 .play-btn-wrapper {
@@ -106,8 +106,8 @@ button:hover {
 .play-btn {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   border: none;
+  border-radius: 50%;
   background-color: #78c7f263;
 }
 
@@ -118,55 +118,55 @@ button:hover {
 /* MAIN */
 
 .main {
-  text-align: center;
   padding-top: 20px;
+  text-align: center;
   padding-bottom: 20px;
 }
 
 .main__title {
-  text-transform: uppercase;
-  font-family: "Gloria Hallelujah", cursive;
-  color: rgb(84, 78, 78);
   font-size: 40px;
   text-align: center;
+  color: rgb(84, 78, 78);
+  text-transform: uppercase;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 .tickets {
   width: 100%;
-  border-collapse: collapse;
   text-transform: uppercase;
+  border-collapse: collapse;
   color: rgba(0, 0, 0, 0.516);
 }
 
 .date {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
   padding: 15px;
   font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
 }
 
 .city {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
   padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
 }
 
 .place {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
   padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
 }
 
 .buy {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
   padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
 }
 
 .buy-btn {
-  background-color: #78c7f2;
   border: unset;
-  padding: 5px 2px;
   color: #fff;
-  text-transform: uppercase;
+  padding: 5px 2px;
   border-radius: 5px;
   white-space: nowrap;
+  text-transform: uppercase;
+  background-color: #78c7f2;
 }
 
 .ticket:last-child .date,
@@ -179,8 +179,8 @@ button:hover {
 /* FOOTER */
 
 .footer {
-  background-color: #78c7f2;
   padding: 0 20px;
+  background-color: #78c7f2;
 }
 
 .socials-wrapper {
@@ -190,12 +190,12 @@ button:hover {
 }
 
 .footer-logo {
-  font-size: 30px;
   color: #fff;
-  font-family: "Gloria Hallelujah", cursive;
-  text-transform: capitalize;
+  font-size: 30px;
   display: inline-block;
+  text-transform: capitalize;
   transition: opacity 0.3s ease;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 .footer-logo:hover {
@@ -222,8 +222,8 @@ button:hover {
 /* ABOUT */
 
 .about {
-  color: rgba(6, 6, 6, 0.36);
   padding-bottom: 40px;
+  color: rgba(6, 6, 6, 0.36);
 }
 
 .about-img {
