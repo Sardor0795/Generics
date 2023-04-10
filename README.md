@@ -1,4 +1,4 @@
 # Generics
 Generics - Practice for html&amp;css entry level !
 
-![Screenshot_6](https://user-images.githubusercontent.com/87645525/230803276-1d7c7dfc-14ea-4cba-95c6-407e96a1c5f0.jpg)
+![Screenshot_7](https://user-images.githubusercontent.com/87645525/230803342-e04ced53-f553-4dc5-bb7f-b2aa8e5f103c.jpg)
